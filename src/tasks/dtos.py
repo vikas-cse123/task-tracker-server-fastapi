@@ -11,5 +11,5 @@ class TaskResponseSchema(BaseModel):
     id:int
     title:str
     description: str
-    is_completed:bool = bool
+    is_completed:bool 
     
